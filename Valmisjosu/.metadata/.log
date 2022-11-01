@@ -1,0 +1,2846 @@
+!SESSION 2021-12-07 13:58:17.617 -----------------------------------------------
+eclipse.buildId=2017.2
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+This is a continuation of log file P:\Johsul2\Johsul_harkka\.metadata\.bak_0.log
+Created Time: 2021-12-07 15:09:39.989
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:09:40.005
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-31
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:09:40.018
+!MESSAGE XSCT Command: [con], Thread: Worker-31
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:09:40.029
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-31
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:27.076
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:27.139
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:27.139
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:27.170
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.3",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:27.170
+!MESSAGE XSCT Command: [::hsi::utils::closesw P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:27.186
+!MESSAGE XSCT command with result: [::hsi::utils::closesw P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:32.322
+!MESSAGE XSCT Command: [disconnect tcfchan#25], Thread: Thread-1836
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:32.343
+!MESSAGE XSCT command with result: [disconnect tcfchan#25], Result: [null, ]. Thread: Thread-1836
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-12-07 15:11:33.322
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.338
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.354
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#26]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.354
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.385
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.385
+!MESSAGE XSCT Command: [version -server], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.400
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2017.2]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.416
+!MESSAGE XSCT Command: [version], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.416
+!MESSAGE XSCT command with result: [version], Result: [null, 2017.2]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.432
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.447
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.463
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.478
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.494
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.510
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.510
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.541
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.557
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.572
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.572
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.603
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.619
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.635
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.635
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.666
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.682
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.697
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.697
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.728
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.744
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.760
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.760
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.791
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.791
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level == 0}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.822
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level == 0}], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.838
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.853
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.853
+!MESSAGE XSCT Command: [source P:/Johsul2/Johsul_harkka/Exercise/ps7_init.tcl], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.885
+!MESSAGE XSCT command with result: [source P:/Johsul2/Johsul_harkka/Exercise/ps7_init.tcl], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.900
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.947
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:33.947
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:34.030
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:34.046
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:37.061
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:37.091
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:37.097
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:37.112
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:37.128
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:37.144
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:37.175
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:37.175
+!MESSAGE XSCT Command: [fpga -file P:/Johsul2/Johsul_harkka/Exercise/top.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:39.673
+!MESSAGE XSCT command with result: [fpga -file P:/Johsul2/Johsul_harkka/Exercise/top.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:39.704
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:39.735
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:39.751
+!MESSAGE XSCT Command: [loadhw -hw P:/Johsul2/Johsul_harkka/Exercise/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:39.766
+!MESSAGE XSCT command with result: [loadhw -hw P:/Johsul2/Johsul_harkka/Exercise/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, top_2]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:39.782
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:39.798
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:39.798
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:39.829
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:39.845
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:40.157
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:40.173
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:40.188
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:40.188
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:40.220
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:40.235
+!MESSAGE XSCT Command: [dow P:/Johsul2/Johsul_harkka/Embedded_Exercise_normal/Debug/Embedded_Exercise_normal.elf], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:40.438
+!MESSAGE XSCT command with result: [dow P:/Johsul2/Johsul_harkka/Embedded_Exercise_normal/Debug/Embedded_Exercise_normal.elf], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:40.454
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:40.469
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:40.501
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:40.626
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:40.626
+!MESSAGE XSCT Command: [con], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:11:40.641
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:24.295
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:24.342
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:24.358
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:24.373
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.3",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:24.389
+!MESSAGE XSCT Command: [::hsi::utils::closesw P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:24.405
+!MESSAGE XSCT command with result: [::hsi::utils::closesw P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:29.425
+!MESSAGE XSCT Command: [disconnect tcfchan#26], Thread: Thread-1903
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:29.444
+!MESSAGE XSCT command with result: [disconnect tcfchan#26], Result: [null, ]. Thread: Thread-1903
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-12-07 15:13:30.436
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.452
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.468
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#27]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.468
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.499
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.514
+!MESSAGE XSCT Command: [version -server], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.514
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2017.2]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.530
+!MESSAGE XSCT Command: [version], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.546
+!MESSAGE XSCT command with result: [version], Result: [null, 2017.2]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.546
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.561
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.577
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.608
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.608
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.624
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.639
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.671
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.671
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.702
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.702
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.733
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.749
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.764
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.780
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.796
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.811
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.827
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.842
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.874
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.874
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.889
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.905
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.936
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.952
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level == 0}], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.967
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level == 0}], Result: [null, ]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.983
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.983
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:30.999
+!MESSAGE XSCT Command: [source P:/Johsul2/Johsul_harkka/Exercise/ps7_init.tcl], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:31.030
+!MESSAGE XSCT command with result: [source P:/Johsul2/Johsul_harkka/Exercise/ps7_init.tcl], Result: [null, ]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:31.046
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:31.077
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:31.092
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:31.161
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:31.176
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:34.182
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:34.218
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:34.223
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:34.239
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:34.270
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:34.270
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:34.302
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:34.317
+!MESSAGE XSCT Command: [fpga -file P:/Johsul2/Johsul_harkka/Exercise/top.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:36.773
+!MESSAGE XSCT command with result: [fpga -file P:/Johsul2/Johsul_harkka/Exercise/top.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:36.804
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:36.835
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:36.851
+!MESSAGE XSCT Command: [loadhw -hw P:/Johsul2/Johsul_harkka/Exercise/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:36.866
+!MESSAGE XSCT command with result: [loadhw -hw P:/Johsul2/Johsul_harkka/Exercise/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, top_2]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:36.882
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:36.898
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:36.898
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:36.929
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:36.944
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:37.257
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:37.272
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:37.288
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:37.304
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:37.339
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:37.348
+!MESSAGE XSCT Command: [dow P:/Johsul2/Johsul_harkka/Embedded_Exercise_normal/Debug/Embedded_Exercise_normal.elf], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:37.538
+!MESSAGE XSCT command with result: [dow P:/Johsul2/Johsul_harkka/Embedded_Exercise_normal/Debug/Embedded_Exercise_normal.elf], Result: [null, ]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:37.554
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:37.554
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:37.585
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:37.694
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:37.716
+!MESSAGE XSCT Command: [con], Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:13:37.730
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-35
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:25.354
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:25.400
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:25.416
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:25.432
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.3",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:25.447
+!MESSAGE XSCT Command: [::hsi::utils::closesw P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:25.463
+!MESSAGE XSCT command with result: [::hsi::utils::closesw P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:31.156
+!MESSAGE XSCT Command: [disconnect tcfchan#27], Thread: Thread-2017
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:31.164
+!MESSAGE XSCT command with result: [disconnect tcfchan#27], Result: [null, ]. Thread: Thread-2017
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-12-07 15:17:32.140
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.156
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.171
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#28]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.171
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.203
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.203
+!MESSAGE XSCT Command: [version -server], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.218
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2017.2]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.218
+!MESSAGE XSCT Command: [version], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.234
+!MESSAGE XSCT command with result: [version], Result: [null, 2017.2]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.249
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.265
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.265
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.296
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.312
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.328
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.328
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.359
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.374
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.390
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.390
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.421
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.437
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.437
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.453
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.484
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.499
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.499
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.515
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.546
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.546
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.562
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.578
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.611
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.615
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.646
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level == 0}], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.646
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.661
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.677
+!MESSAGE XSCT Command: [source P:/Johsul2/Johsul_harkka/Exercise/ps7_init.tcl], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.708
+!MESSAGE XSCT command with result: [source P:/Johsul2/Johsul_harkka/Exercise/ps7_init.tcl], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.708
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.755
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.771
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.839
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:32.854
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:35.870
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:35.912
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:35.917
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:35.933
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:35.964
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:35.964
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:35.995
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:36.011
+!MESSAGE XSCT Command: [fpga -file P:/Johsul2/Johsul_harkka/Exercise/top.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:38.475
+!MESSAGE XSCT command with result: [fpga -file P:/Johsul2/Johsul_harkka/Exercise/top.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:38.506
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:38.537
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:38.553
+!MESSAGE XSCT Command: [loadhw -hw P:/Johsul2/Johsul_harkka/Exercise/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:38.569
+!MESSAGE XSCT command with result: [loadhw -hw P:/Johsul2/Johsul_harkka/Exercise/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, top_2]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:38.584
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:38.584
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:38.600
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:38.631
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:38.647
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:38.975
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:38.990
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:39.006
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:39.006
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:39.037
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:39.053
+!MESSAGE XSCT Command: [dow P:/Johsul2/Johsul_harkka/Embedded_Exercise_normal/Debug/Embedded_Exercise_normal.elf], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:39.240
+!MESSAGE XSCT command with result: [dow P:/Johsul2/Johsul_harkka/Embedded_Exercise_normal/Debug/Embedded_Exercise_normal.elf], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:39.256
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:39.272
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:39.303
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:39.397
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:39.412
+!MESSAGE XSCT Command: [con], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:17:39.428
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:14.584
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:14.647
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:14.662
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:14.694
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.3",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:14.694
+!MESSAGE XSCT Command: [::hsi::utils::closesw P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:14.725
+!MESSAGE XSCT command with result: [::hsi::utils::closesw P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:19.917
+!MESSAGE XSCT Command: [disconnect tcfchan#28], Thread: Thread-2099
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:19.938
+!MESSAGE XSCT command with result: [disconnect tcfchan#28], Result: [null, ]. Thread: Thread-2099
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-12-07 15:20:20.930
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:20.946
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:20.961
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#29]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:20.977
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:20.993
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.008
+!MESSAGE XSCT Command: [version -server], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.008
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2017.2]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.024
+!MESSAGE XSCT Command: [version], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.040
+!MESSAGE XSCT command with result: [version], Result: [null, 2017.2]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.040
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.055
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.071
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.102
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.102
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.133
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.133
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.165
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.180
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.196
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.196
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.227
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.243
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.258
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.274
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.305
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.321
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.336
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.352
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.383
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.399
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.414
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.414
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.446
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.461
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level == 0}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.493
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level == 0}], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.508
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.524
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.540
+!MESSAGE XSCT Command: [source P:/Johsul2/Johsul_harkka/Exercise/ps7_init.tcl], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.571
+!MESSAGE XSCT command with result: [source P:/Johsul2/Johsul_harkka/Exercise/ps7_init.tcl], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.602
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.649
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.664
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.751
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:21.767
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:24.787
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:24.829
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:24.834
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:24.850
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:24.881
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:24.881
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:24.912
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:24.928
+!MESSAGE XSCT Command: [fpga -file P:/Johsul2/Johsul_harkka/Exercise/top.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:27.384
+!MESSAGE XSCT command with result: [fpga -file P:/Johsul2/Johsul_harkka/Exercise/top.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:27.415
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:27.462
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:27.478
+!MESSAGE XSCT Command: [loadhw -hw P:/Johsul2/Johsul_harkka/Exercise/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:27.493
+!MESSAGE XSCT command with result: [loadhw -hw P:/Johsul2/Johsul_harkka/Exercise/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, top_2]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:27.509
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:27.509
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:27.524
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:27.556
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:27.571
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:27.937
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:27.952
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:27.968
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:27.983
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:28.015
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:28.015
+!MESSAGE XSCT Command: [dow P:/Johsul2/Johsul_harkka/Embedded_Exercise_normal/Debug/Embedded_Exercise_normal.elf], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:28.202
+!MESSAGE XSCT command with result: [dow P:/Johsul2/Johsul_harkka/Embedded_Exercise_normal/Debug/Embedded_Exercise_normal.elf], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:28.218
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:28.218
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:28.249
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:28.358
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:28.374
+!MESSAGE XSCT Command: [con], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:20:28.400
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:36.083
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:36.146
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:36.146
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:36.177
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.3",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:36.177
+!MESSAGE XSCT Command: [::hsi::utils::closesw P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:36.193
+!MESSAGE XSCT command with result: [::hsi::utils::closesw P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:42.198
+!MESSAGE XSCT Command: [disconnect tcfchan#29], Thread: Thread-2161
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:42.203
+!MESSAGE XSCT command with result: [disconnect tcfchan#29], Result: [null, ]. Thread: Thread-2161
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-12-07 15:21:43.184
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.199
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.230
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#30]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.230
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.262
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.262
+!MESSAGE XSCT Command: [version -server], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.277
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2017.2]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.293
+!MESSAGE XSCT Command: [version], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.293
+!MESSAGE XSCT command with result: [version], Result: [null, 2017.2]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.308
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.324
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.340
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.355
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.371
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.386
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.402
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.418
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.433
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.449
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.465
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.496
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.496
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.511
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.527
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.558
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.558
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.574
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.590
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.621
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.621
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.636
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.652
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.683
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.683
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level == 0}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.715
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level == 0}], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.730
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.730
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.746
+!MESSAGE XSCT Command: [source P:/Johsul2/Johsul_harkka/Exercise/ps7_init.tcl], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.777
+!MESSAGE XSCT command with result: [source P:/Johsul2/Johsul_harkka/Exercise/ps7_init.tcl], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.793
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.824
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.840
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.894
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:43.910
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:46.925
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:46.965
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:46.971
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:46.986
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:47.002
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:47.018
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:47.049
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:47.064
+!MESSAGE XSCT Command: [fpga -file P:/Johsul2/Johsul_harkka/Exercise/top.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:49.525
+!MESSAGE XSCT command with result: [fpga -file P:/Johsul2/Johsul_harkka/Exercise/top.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:49.587
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:49.618
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:49.618
+!MESSAGE XSCT Command: [loadhw -hw P:/Johsul2/Johsul_harkka/Exercise/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:49.650
+!MESSAGE XSCT command with result: [loadhw -hw P:/Johsul2/Johsul_harkka/Exercise/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, top_2]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:49.665
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:49.665
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:49.681
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:49.712
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:49.712
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:50.040
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:50.056
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:50.071
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:50.087
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:50.149
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:50.149
+!MESSAGE XSCT Command: [dow P:/Johsul2/Johsul_harkka/Embedded_Exercise_normal/Debug/Embedded_Exercise_normal.elf], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:50.337
+!MESSAGE XSCT command with result: [dow P:/Johsul2/Johsul_harkka/Embedded_Exercise_normal/Debug/Embedded_Exercise_normal.elf], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:50.353
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:50.353
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:50.384
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:50.493
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:50.509
+!MESSAGE XSCT Command: [con], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:21:50.524
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:01.117
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:01.180
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:01.180
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:01.211
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.3",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:01.211
+!MESSAGE XSCT Command: [::hsi::utils::closesw P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:01.227
+!MESSAGE XSCT command with result: [::hsi::utils::closesw P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:06.075
+!MESSAGE XSCT Command: [disconnect tcfchan#30], Thread: Thread-2224
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:06.081
+!MESSAGE XSCT command with result: [disconnect tcfchan#30], Result: [null, ]. Thread: Thread-2224
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-12-07 15:24:07.074
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.089
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.105
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#31]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.105
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.136
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.152
+!MESSAGE XSCT Command: [version -server], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.152
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2017.2]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.167
+!MESSAGE XSCT Command: [version], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.167
+!MESSAGE XSCT command with result: [version], Result: [null, 2017.2]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.183
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.199
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.214
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.230
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.246
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.261
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.277
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.292
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.308
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.324
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.324
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.355
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.370
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.386
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.402
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.417
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.433
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.449
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.464
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.480
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.495
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.511
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.511
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.542
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.558
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level == 0}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.574
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level == 0}], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.589
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.605
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.605
+!MESSAGE XSCT Command: [source P:/Johsul2/Johsul_harkka/Exercise/ps7_init.tcl], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.636
+!MESSAGE XSCT command with result: [source P:/Johsul2/Johsul_harkka/Exercise/ps7_init.tcl], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.652
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.699
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.699
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.801
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:07.801
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:10.823
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:10.856
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:10.862
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:10.878
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:10.893
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:10.909
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:10.940
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:10.940
+!MESSAGE XSCT Command: [fpga -file P:/Johsul2/Johsul_harkka/Exercise/top.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:13.399
+!MESSAGE XSCT command with result: [fpga -file P:/Johsul2/Johsul_harkka/Exercise/top.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:13.430
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:13.462
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:13.477
+!MESSAGE XSCT Command: [loadhw -hw P:/Johsul2/Johsul_harkka/Exercise/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:13.508
+!MESSAGE XSCT command with result: [loadhw -hw P:/Johsul2/Johsul_harkka/Exercise/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, top_2]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:13.508
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:13.524
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:13.540
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:13.555
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:13.571
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:13.930
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:13.946
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:13.962
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:13.977
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:14.008
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:14.024
+!MESSAGE XSCT Command: [dow P:/Johsul2/Johsul_harkka/Embedded_Exercise_normal/Debug/Embedded_Exercise_normal.elf], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:14.211
+!MESSAGE XSCT command with result: [dow P:/Johsul2/Johsul_harkka/Embedded_Exercise_normal/Debug/Embedded_Exercise_normal.elf], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:14.227
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:14.227
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:14.274
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:14.383
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:14.399
+!MESSAGE XSCT Command: [con], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:24:14.408
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:26:55.058
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:26:55.104
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:26:55.120
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:26:55.151
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.3",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:26:55.151
+!MESSAGE XSCT Command: [::hsi::utils::closesw P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:26:55.167
+!MESSAGE XSCT command with result: [::hsi::utils::closesw P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:01.046
+!MESSAGE XSCT Command: [disconnect tcfchan#31], Thread: Thread-2295
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:01.059
+!MESSAGE XSCT command with result: [disconnect tcfchan#31], Result: [null, ]. Thread: Thread-2295
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-12-07 15:27:02.052
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.068
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.083
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#32]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.083
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.099
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.115
+!MESSAGE XSCT Command: [version -server], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.130
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2017.2]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.130
+!MESSAGE XSCT Command: [version], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.146
+!MESSAGE XSCT command with result: [version], Result: [null, 2017.2]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.162
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.177
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.193
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.208
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.224
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.240
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.255
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.271
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.287
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.302
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.318
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.349
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.349
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.365
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.380
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.396
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.411
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.427
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.443
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.458
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.474
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.490
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.505
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.536
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.536
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level == 0}], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.568
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level == 0}], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.583
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.583
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.599
+!MESSAGE XSCT Command: [source P:/Johsul2/Johsul_harkka/Exercise/ps7_init.tcl], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.630
+!MESSAGE XSCT command with result: [source P:/Johsul2/Johsul_harkka/Exercise/ps7_init.tcl], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.630
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.677
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.693
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.764
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:02.779
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:05.801
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:05.836
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:05.841
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:05.856
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:05.872
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:05.888
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:05.919
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:05.934
+!MESSAGE XSCT Command: [fpga -file P:/Johsul2/Johsul_harkka/Exercise/top.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:08.411
+!MESSAGE XSCT command with result: [fpga -file P:/Johsul2/Johsul_harkka/Exercise/top.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:08.442
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:08.473
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:08.489
+!MESSAGE XSCT Command: [loadhw -hw P:/Johsul2/Johsul_harkka/Exercise/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:08.504
+!MESSAGE XSCT command with result: [loadhw -hw P:/Johsul2/Johsul_harkka/Exercise/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, top_2]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:08.520
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:08.536
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:08.536
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:08.582
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:08.582
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:08.910
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:08.926
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:08.942
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:08.957
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:09.020
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:09.035
+!MESSAGE XSCT Command: [dow P:/Johsul2/Johsul_harkka/Embedded_Exercise_normal/Debug/Embedded_Exercise_normal.elf], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:09.239
+!MESSAGE XSCT command with result: [dow P:/Johsul2/Johsul_harkka/Embedded_Exercise_normal/Debug/Embedded_Exercise_normal.elf], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:09.239
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:09.254
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:09.285
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:09.395
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:09.410
+!MESSAGE XSCT Command: [con], Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:27:09.427
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-40
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:01.463
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:01.509
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:01.525
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:01.556
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.3",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:01.556
+!MESSAGE XSCT Command: [::hsi::utils::closesw P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:01.572
+!MESSAGE XSCT command with result: [::hsi::utils::closesw P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:06.467
+!MESSAGE XSCT Command: [disconnect tcfchan#32], Thread: Thread-2358
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:06.488
+!MESSAGE XSCT command with result: [disconnect tcfchan#32], Result: [null, ]. Thread: Thread-2358
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-12-07 15:29:07.473
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.489
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.504
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#33]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.520
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.535
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.551
+!MESSAGE XSCT Command: [version -server], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.551
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2017.2]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.567
+!MESSAGE XSCT Command: [version], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.582
+!MESSAGE XSCT command with result: [version], Result: [null, 2017.2]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.582
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.598
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.614
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.629
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.645
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.660
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.676
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.692
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.707
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.723
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.739
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.754
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.770
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.785
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.785
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.817
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.832
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.848
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.848
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.879
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.895
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.910
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.910
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.942
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.957
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level == 0}], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.973
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level == 0}], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:07.989
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:08.004
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:08.004
+!MESSAGE XSCT Command: [source P:/Johsul2/Johsul_harkka/Exercise/ps7_init.tcl], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:08.035
+!MESSAGE XSCT command with result: [source P:/Johsul2/Johsul_harkka/Exercise/ps7_init.tcl], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:08.051
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:08.082
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:08.098
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:08.152
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:08.167
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:11.173
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:11.207
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:11.212
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:11.228
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:11.243
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:11.259
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:11.290
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:11.306
+!MESSAGE XSCT Command: [fpga -file P:/Johsul2/Johsul_harkka/Exercise/top.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:13.749
+!MESSAGE XSCT command with result: [fpga -file P:/Johsul2/Johsul_harkka/Exercise/top.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:13.780
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:13.811
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:13.827
+!MESSAGE XSCT Command: [loadhw -hw P:/Johsul2/Johsul_harkka/Exercise/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:13.843
+!MESSAGE XSCT command with result: [loadhw -hw P:/Johsul2/Johsul_harkka/Exercise/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, top_2]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:13.858
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:13.874
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:13.874
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:13.905
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:13.921
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:14.264
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:14.264
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:14.280
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:14.296
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:14.374
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:14.374
+!MESSAGE XSCT Command: [dow P:/Johsul2/Johsul_harkka/Embedded_Exercise_normal/Debug/Embedded_Exercise_normal.elf], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:14.561
+!MESSAGE XSCT command with result: [dow P:/Johsul2/Johsul_harkka/Embedded_Exercise_normal/Debug/Embedded_Exercise_normal.elf], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:14.577
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:14.577
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:14.624
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:14.748
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:14.755
+!MESSAGE XSCT Command: [con], Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:29:14.767
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-30
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:27.371
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:27.434
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:27.449
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:27.465
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.3",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:27.481
+!MESSAGE XSCT Command: [::hsi::utils::closesw P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:27.496
+!MESSAGE XSCT command with result: [::hsi::utils::closesw P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:32.235
+!MESSAGE XSCT Command: [disconnect tcfchan#33], Thread: Thread-2431
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:32.255
+!MESSAGE XSCT command with result: [disconnect tcfchan#33], Result: [null, ]. Thread: Thread-2431
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-12-07 15:31:33.249
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.265
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.280
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#34]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.296
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.312
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.327
+!MESSAGE XSCT Command: [version -server], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.327
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2017.2]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.343
+!MESSAGE XSCT Command: [version], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.343
+!MESSAGE XSCT command with result: [version], Result: [null, 2017.2]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.359
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.374
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.390
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.405
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.421
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.437
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.452
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.468
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.484
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.499
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.515
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.530
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.546
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.562
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.577
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.593
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.615
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.629
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.629
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.661
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.676
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.692
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.692
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.723
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.739
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.754
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level == 0}], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.770
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.786
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.786
+!MESSAGE XSCT Command: [source P:/Johsul2/Johsul_harkka/Exercise/ps7_init.tcl], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.817
+!MESSAGE XSCT command with result: [source P:/Johsul2/Johsul_harkka/Exercise/ps7_init.tcl], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.832
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.864
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.879
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.948
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:33.963
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:36.978
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:37.008
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:37.015
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:37.031
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:37.046
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:37.062
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:37.093
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:37.093
+!MESSAGE XSCT Command: [fpga -file P:/Johsul2/Johsul_harkka/Exercise/top.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:39.543
+!MESSAGE XSCT command with result: [fpga -file P:/Johsul2/Johsul_harkka/Exercise/top.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:39.575
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:39.606
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:39.621
+!MESSAGE XSCT Command: [loadhw -hw P:/Johsul2/Johsul_harkka/Exercise/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:39.637
+!MESSAGE XSCT command with result: [loadhw -hw P:/Johsul2/Johsul_harkka/Exercise/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, top_2]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:39.653
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:39.653
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:39.668
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:39.700
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:39.700
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:40.028
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:40.043
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:40.059
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:40.075
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:40.106
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:40.106
+!MESSAGE XSCT Command: [dow P:/Johsul2/Johsul_harkka/Embedded_Exercise_normal/Debug/Embedded_Exercise_normal.elf], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:40.324
+!MESSAGE XSCT command with result: [dow P:/Johsul2/Johsul_harkka/Embedded_Exercise_normal/Debug/Embedded_Exercise_normal.elf], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:40.324
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:40.340
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:40.387
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:40.481
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:40.496
+!MESSAGE XSCT Command: [con], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:31:40.512
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:06.251
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:06.314
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:06.329
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:06.345
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json P:/Johsul2/Johsul_harkka/Exercise/system.hdf P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "6.3",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:06.360
+!MESSAGE XSCT Command: [::hsi::utils::closesw P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:06.360
+!MESSAGE XSCT command with result: [::hsi::utils::closesw P:/Johsul2/Johsul_harkka/Embedded_Exercise_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:11.147
+!MESSAGE XSCT Command: [disconnect tcfchan#34], Thread: Thread-2492
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:11.171
+!MESSAGE XSCT command with result: [disconnect tcfchan#34], Result: [null, ]. Thread: Thread-2492
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-12-07 15:33:12.156
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.171
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.187
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#35]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.203
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.218
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.234
+!MESSAGE XSCT Command: [version -server], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.234
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2017.2]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.249
+!MESSAGE XSCT Command: [version], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.249
+!MESSAGE XSCT command with result: [version], Result: [null, 2017.2]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.265
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.281
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.281
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.312
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.328
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.343
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.343
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.374
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.390
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.406
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.406
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.437
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.453
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.468
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.468
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.499
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.515
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.531
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.531
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.562
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.562
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.578
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.593
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.624
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.624
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level == 0}], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.656
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level == 0}], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.656
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.671
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.687
+!MESSAGE XSCT Command: [source P:/Johsul2/Johsul_harkka/Exercise/ps7_init.tcl], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.718
+!MESSAGE XSCT command with result: [source P:/Johsul2/Johsul_harkka/Exercise/ps7_init.tcl], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.718
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.765
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.765
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.848
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:12.864
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:15.870
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:15.904
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:15.910
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:15.926
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:15.941
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:15.957
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:15.988
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:15.988
+!MESSAGE XSCT Command: [fpga -file P:/Johsul2/Johsul_harkka/Exercise/top.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:18.454
+!MESSAGE XSCT command with result: [fpga -file P:/Johsul2/Johsul_harkka/Exercise/top.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:18.486
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:18.517
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:18.533
+!MESSAGE XSCT Command: [loadhw -hw P:/Johsul2/Johsul_harkka/Exercise/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:18.548
+!MESSAGE XSCT command with result: [loadhw -hw P:/Johsul2/Johsul_harkka/Exercise/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, top_2]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:18.564
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:18.579
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:18.579
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:18.611
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:18.626
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:18.960
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:18.975
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:18.991
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:19.007
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:19.038
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:19.054
+!MESSAGE XSCT Command: [dow P:/Johsul2/Johsul_harkka/Embedded_Exercise_normal/Debug/Embedded_Exercise_normal.elf], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:19.225
+!MESSAGE XSCT command with result: [dow P:/Johsul2/Johsul_harkka/Embedded_Exercise_normal/Debug/Embedded_Exercise_normal.elf], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:19.241
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:19.241
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:19.288
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:19.382
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:19.397
+!MESSAGE XSCT Command: [con], Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:33:19.413
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-18
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:06.977
+!MESSAGE XSCT Command: [disconnect tcfchan#35], Thread: Thread-2582
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:06.990
+!MESSAGE XSCT command with result: [disconnect tcfchan#35], Result: [null, ]. Thread: Thread-2582
+
+!ENTRY com.xilinx.sdk.utils 1 0 2021-12-07 15:41:07.976
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:07.991
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.007
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#36]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.023
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.038
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.054
+!MESSAGE XSCT Command: [version -server], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.054
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2017.2]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.069
+!MESSAGE XSCT Command: [version], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.069
+!MESSAGE XSCT command with result: [version], Result: [null, 2017.2]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.085
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.101
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.116
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.148
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.148
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.163
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.179
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.210
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.210
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.226
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.241
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.272
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.288
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.304
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.304
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.335
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.351
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.366
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.366
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.397
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.397
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.413
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.429
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.460
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.460
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level == 0}], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.491
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level == 0}], Result: [null, ]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.507
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.507
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.522
+!MESSAGE XSCT Command: [source P:/Johsul2/Johsul_harkka/Exercise/ps7_init.tcl], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.554
+!MESSAGE XSCT command with result: [source P:/Johsul2/Johsul_harkka/Exercise/ps7_init.tcl], Result: [null, ]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.554
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.601
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.616
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.673
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:08.689
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:11.696
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:11.726
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:11.732
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx PYNQ-Z1 003017A6E0BCA]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:11.747
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:11.763
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:11.779
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:11.810
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:11.825
+!MESSAGE XSCT Command: [fpga -file P:/Johsul2/Johsul_harkka/Exercise/top.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:14.268
+!MESSAGE XSCT command with result: [fpga -file P:/Johsul2/Johsul_harkka/Exercise/top.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:14.306
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:14.337
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:14.337
+!MESSAGE XSCT Command: [loadhw -hw P:/Johsul2/Johsul_harkka/Exercise/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:14.368
+!MESSAGE XSCT command with result: [loadhw -hw P:/Johsul2/Johsul_harkka/Exercise/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, top_2]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:14.384
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:14.399
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:14.399
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:14.431
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:14.446
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:14.759
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:14.774
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:14.790
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:14.790
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:14.837
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:14.852
+!MESSAGE XSCT Command: [dow P:/Johsul2/Johsul_harkka/Embedded_Exercise_normal/Debug/Embedded_Exercise_normal.elf], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:15.040
+!MESSAGE XSCT command with result: [dow P:/Johsul2/Johsul_harkka/Embedded_Exercise_normal/Debug/Embedded_Exercise_normal.elf], Result: [null, ]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:15.056
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:15.056
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:15.087
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:15.196
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Xilinx PYNQ-Z1 003017A6E0BCA"} -index 0], Result: [null, ]. Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:15.212
+!MESSAGE XSCT Command: [con], Thread: Worker-38
+
+!ENTRY com.xilinx.sdk.utils 0 0 2021-12-07 15:41:15.236
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-38
