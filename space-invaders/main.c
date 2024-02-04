@@ -62,42 +62,9 @@
 #include "Interrupt_setup.h"
 #include "Game.h"
 
-
-//********************************************************************
-//***************TRY TO READ COMMENTS*********************************
-//********************************************************************
-
-//***Hint: Use sleep(x)  or usleep(x) if you want some delays.****
-//***To call assembler code found in blinker.S, call it using: blinker();***
-
-
 //Comment this if you want to disable all interrupts
 #define enable_interrupts
 static uint8_t x = 0;
-
-
-
-/***************************************************************************************
-Name:
-Student number:
-
-Name:
-Student number:
-
-Name:
-Student number:
-
-Tick boxes that you have coded
-
-Led-matrix driver		Game		    Assembler
-	[]					[]					[]
-
-Brief description:
-
-*****************************************************************************************/
-
-
-
 
 int main()
 {
@@ -124,10 +91,7 @@ int main()
 	    //Try to avoid writing any code in the main loop.
 		while(1){
 
-
 		}
-
-
 
 		cleanup_platform();
 		return 0;
@@ -142,35 +106,19 @@ void TickHandler(void *CallBackRef){
 	//exceptions must be disabled when updating screen
 	Xil_ExceptionDisable();
 
-
-
-	//****Write code here ****
-
-
-	  //****Write code here ****
 	  open_line(9);
 	  run(x);
 	  ++x;
 	  if (x == 8) {
 		x = 0;
 	  }
-
-
-
-
-
-
-
-	//****END OF OWN CODE*****************
-
-	//*********clear timer interrupt status. DO NOT REMOVE********
+	
 	StatusEvent = XTtcPs_GetInterruptStatus((XTtcPs *)CallBackRef);
 	XTtcPs_ClearInterruptStatus((XTtcPs *)CallBackRef, StatusEvent);
 	//*************************************************************
 	//enable exceptions
 	Xil_ExceptionEnable();
 }
-
 
 //Timer interrupt for moving alien, shooting... Frequency is 10 Hz by default
 void TickHandler1(void *CallBackRef){
@@ -184,9 +132,6 @@ void TickHandler1(void *CallBackRef){
 	BulletMove();
 	usleep(500);
 
-
-
-	//****END OF OWN CODE*****************
 	//clear timer interrupt status. DO NOT REMOVE
 	StatusEvent = XTtcPs_GetInterruptStatus((XTtcPs *)CallBackRef);
 	XTtcPs_ClearInterruptStatus((XTtcPs *)CallBackRef, StatusEvent);
@@ -198,7 +143,6 @@ void TickHandler1(void *CallBackRef){
 //Reading Status will tell which button or switch was used
 //Bank information is useless in this exercise
 void ButtonHandler(void *CallBackRef, u32 Bank, u32 Status){
-	//****Write code here ****
 
 	//Hint: Status==0x01 ->btn0, Status==0x02->btn1, Status==0x04->btn2, Status==0x08-> btn3, Status==0x10->SW0, Status==0x20 -> SW1
 
@@ -234,14 +178,4 @@ void ButtonHandler(void *CallBackRef, u32 Bank, u32 Status){
 		// None
 	}
 
-
-
-
-
-
-
-
-	//****END OF OWN CODE*****************
 }
-
-
